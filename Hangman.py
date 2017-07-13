@@ -50,7 +50,6 @@ def isWordGuessed(secretWord, lettersGuessed):
                 return True
 
 
-
 def getGuessedWord(secretWord, lettersGuessed):
     '''
     secretWord: string, the word the user is guessing
@@ -66,9 +65,6 @@ def getGuessedWord(secretWord, lettersGuessed):
             result += '_ '
     return result
             
-            
-
-
 
 def getAvailableLetters(lettersGuessed):
     '''
@@ -82,7 +78,6 @@ def getAvailableLetters(lettersGuessed):
         if letter not in lettersGuessed:
             available+=letter
     return available
-    
     
 
 def hangman():
